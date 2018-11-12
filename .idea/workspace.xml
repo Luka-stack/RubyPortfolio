@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bd1f4c1-739f-4803-9fb2-3589f79aa634" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/views/portfolios/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/portfolios/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +41,7 @@
           <entry key="Gemfile" value="1" />
           <entry key="coffee" value="1" />
           <entry key="enc" value="1" />
-          <entry key="erb" value="12" />
+          <entry key="erb" value="14" />
           <entry key="gitignore" value="3" />
           <entry key="key" value="1" />
           <entry key="md" value="3" />
@@ -56,7 +57,7 @@
           <entry key="CoffeeScript" value="1" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="RHTML" value="12" />
+          <entry key="RHTML" value="14" />
           <entry key="Ruby" value="30" />
           <entry key="SCSS" value="3" />
           <entry key="YAML" value="6" />
@@ -65,10 +66,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="2" />
-          <entry key="erb" value="712" />
+          <entry key="erb" value="719" />
           <entry key="gitignore" value="48" />
           <entry key="md" value="313" />
-          <entry key="rb" value="1280" />
+          <entry key="rb" value="1367" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
@@ -76,19 +77,28 @@
         <counts>
           <entry key="Markdown" value="310" />
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="RHTML" value="712" />
-          <entry key="Ruby" value="1285" />
+          <entry key="RHTML" value="719" />
+          <entry key="Ruby" value="1372" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="30">
+              <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/portfolios/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -115,8 +125,8 @@
         <option value="$PROJECT_DIR$/app/views/portfolios/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/portfolios/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/portfolios/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/portfolios/index.html.erb" />
       </list>
     </option>
   </component>
@@ -333,7 +343,7 @@
       <workItem from="1540826555581" duration="5789000" />
       <workItem from="1540985236384" duration="87000" />
       <workItem from="1541428536031" duration="4903000" />
-      <workItem from="1542024634519" duration="9251000" />
+      <workItem from="1542024634519" duration="9615000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1540827182758</created>
@@ -346,7 +356,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22556000" />
+    <option name="totallyTimeSpent" value="22920000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +384,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26604068" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38184664" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32917318" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -562,13 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/portfolios/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/portfolios_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -578,8 +581,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="30">
+          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portfolios/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
