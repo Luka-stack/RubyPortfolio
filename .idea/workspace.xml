@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bd1f4c1-739f-4803-9fb2-3589f79aa634" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/RubyPortfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RubyPortfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/blog.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/blog.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
@@ -49,7 +45,7 @@
           <entry key="gitignore" value="3" />
           <entry key="key" value="1" />
           <entry key="md" value="3" />
-          <entry key="rb" value="36" />
+          <entry key="rb" value="40" />
           <entry key="ru" value="1" />
           <entry key="ruby-version" value="1" />
           <entry key="scss" value="3" />
@@ -62,7 +58,7 @@
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="RHTML" value="14" />
-          <entry key="Ruby" value="39" />
+          <entry key="Ruby" value="43" />
           <entry key="SCSS" value="3" />
           <entry key="YAML" value="6" />
         </counts>
@@ -73,7 +69,7 @@
           <entry key="erb" value="719" />
           <entry key="gitignore" value="48" />
           <entry key="md" value="313" />
-          <entry key="rb" value="1434" />
+          <entry key="rb" value="1489" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
@@ -82,18 +78,27 @@
           <entry key="Markdown" value="310" />
           <entry key="PLAIN_TEXT" value="65" />
           <entry key="RHTML" value="719" />
-          <entry key="Ruby" value="1504" />
+          <entry key="Ruby" value="1559" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+            <state relative-caret-position="270">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/blog.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -122,8 +127,9 @@
         <option value="$PROJECT_DIR$/app/views/portfolios/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20181112152153_create_friendly_id_slugs.rb" />
-        <option value="$PROJECT_DIR$/app/models/blog.rb" />
         <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181112154937_add_post_status_to_blogs.rb" />
+        <option value="$PROJECT_DIR$/app/models/blog.rb" />
       </list>
     </option>
   </component>
@@ -178,18 +184,7 @@
               <item name="RubyPortfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="RubyPortfolio" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RubyPortfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RubyPortfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RubyPortfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RubyPortfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,7 +328,7 @@
       <workItem from="1540826555581" duration="5789000" />
       <workItem from="1540985236384" duration="87000" />
       <workItem from="1541428536031" duration="4903000" />
-      <workItem from="1542024634519" duration="11400000" />
+      <workItem from="1542024634519" duration="12313000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1540827182758</created>
@@ -346,7 +341,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24705000" />
+    <option name="totallyTimeSpent" value="25618000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,9 +390,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20181029161314_create_blogs.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/blogs.coffee">
@@ -572,24 +564,34 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20181105173012_create_portfolios.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/blog.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="945">
+          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181112154937_add_post_status_to_blogs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181029161314_create_blogs.rb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="270">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/blog.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+        <state relative-caret-position="15">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
         </state>
       </provider>
     </entry>
