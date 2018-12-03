@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 2.5'
 # friendy id gem for routes
 gem 'friendly_id', '~> 5.1.0'
 
+# authentication gem
+gem 'devise', '~> 4.5'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
