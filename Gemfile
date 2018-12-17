@@ -18,7 +18,9 @@ gem 'uglifier', '>= 1.3.0'
 
 # for autodetecting JavaScript
 gem 'execjs'
-gem 'therubyracer'
+gem 'mini_racer'
+# not supported
+# gem 'therubyracer'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -32,6 +34,12 @@ gem 'friendly_id', '~> 5.1.0'
 
 # authentication gem
 gem 'devise', '~> 4.5'
+
+# bootstrap 4.1.3 gem
+gem 'bootstrap', '~> 4.1.3'
+
+# jquery
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
