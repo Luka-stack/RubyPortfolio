@@ -44,6 +44,12 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 # petersgame for authorization
 gem 'petergate', '~> 2.0', '>= 2.0.1'
 
+# font awesome rails icons for ex. facebook github
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+
+# kaminari gem for pagination
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
