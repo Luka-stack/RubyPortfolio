@@ -1,12 +1,12 @@
 class PortfoliosController < ApplicationController
-  before_action :set_portfolio_item, only: [:edit, :update, :show, :destroy]
-  access all: [:show, :index, :angular],
-         user: {except: [:destroy, :new, :create, :update, :edit]},
+  before_action :set_portfolio_item, only: %i[edit update show destroy]
+  access all: %i[show index angular],
+         user: { except: %i[destroy new create update edit] },
          site_admin: :all
   layout 'portfolio'
 
   def index
-    @portfolio_items = Portfolio.all
+    @portfolio_items = Portfolio.by_position
   end
 
   def angular
@@ -30,8 +30,7 @@ class PortfoliosController < ApplicationController
     end
   end
 
-  def edit
-  end
+  def edit; end
 
   def update
     respond_to do |format|
@@ -43,8 +42,7 @@ class PortfoliosController < ApplicationController
     end
   end
 
-  def show
-  end
+  def show; end
 
   def destroy
     @portfolio_item.destroy
