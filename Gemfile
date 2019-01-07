@@ -41,6 +41,9 @@ gem 'bootstrap', '~> 4.1.3'
 # jquery
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
+# jquery ui
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+
 # web packer to implement js
 gem 'webpacker', '~> 3.5', '>= 3.5.5'
 
