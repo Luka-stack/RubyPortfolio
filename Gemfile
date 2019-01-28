@@ -56,6 +56,12 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 # kaminari gem for pagination
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
+# image gems
+gem 'carrierwave', '~> 1.3', '>= 1.3.1'
+gem 'mini_magick', '~> 4.9', '>= 4.9.2'
+gem 'carrierwave-aws', '~> 1.3'
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
