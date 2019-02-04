@@ -53,6 +53,9 @@ gem 'webpacker', '~> 3.5', '>= 3.5.5'
 # petersgame for authorization
 gem 'petergate', '~> 2.0', '>= 2.0.1'
 
+# notification game
+gem 'gritter', '~> 1.2'
+
 # font awesome rails icons for ex. facebook github
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 
