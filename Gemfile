@@ -44,6 +44,9 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 # jquery ui
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
+# cocoon to work with jquery
+gem 'cocoon', '~> 1.2', '>= 1.2.12'
+
 # web packer to implement js
 gem 'webpacker', '~> 3.5', '>= 3.5.5'
 
