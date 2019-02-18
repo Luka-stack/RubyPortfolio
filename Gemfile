@@ -70,6 +70,9 @@ gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 gem 'twitter', '~> 6.2'
 gem 'dotenv', '~> 2.6'
 
+# like database not based on sql. fast and easy
+gem 'redis', '~> 4.1'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
