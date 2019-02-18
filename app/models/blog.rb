@@ -5,6 +5,8 @@ class Blog < ApplicationRecord
 
   validates_presence_of :title, :body
 
+  has_many :comments, dependent: :destroy
+
   # for form purpose. will change in future
   belongs_to :topic, optional: true
 
