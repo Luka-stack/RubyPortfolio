@@ -73,6 +73,11 @@ gem 'twitter', '~> 6.2'
 # like database not based on sql. fast and easy
 gem 'redis', '~> 4.1'
 
+# markdown implementation
+gem 'coderay', '~> 1.1', '>= 1.1.1'
+gem 'redcarpet', '~> 3.4'
+
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
