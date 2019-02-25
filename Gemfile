@@ -62,13 +62,13 @@ gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 # image gems
 gem 'carrierwave', '~> 1.3', '>= 1.3.1'
-gem 'mini_magick', '~> 4.9', '>= 4.9.2'
 gem 'carrierwave-aws', '~> 1.3'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
+gem 'mini_magick', '~> 4.9', '>= 4.9.2'
 
 # twitter gem
-gem 'twitter', '~> 6.2'
 gem 'dotenv', '~> 2.6'
+gem 'twitter', '~> 6.2'
 
 # like database not based on sql. fast and easy
 gem 'redis', '~> 4.1'
